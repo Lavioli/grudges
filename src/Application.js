@@ -6,9 +6,6 @@ import "./Application.css";
 import { API, graphqlOperation } from "aws-amplify";
 import { ListGrudges, CreateGrudge, SubscribeToNewGrudges } from "./graphql";
 
-import { API, graphqlOperation } from 'aws-amplify';
-import { ListGrudges, CreateGrudge, SubscribeToNewGrudge } from './graphql';
-
 class Application extends Component {
   state = {
     grudges: []
